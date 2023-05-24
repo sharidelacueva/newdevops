@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t sharidelacueva/jenkins-docker-hub .'
+        sh 'docker build -t sdelacueva/jenkins-docker-hub .'
       }
     }
     stage('Login') {
@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push sharidelacueva/jenkins-docker-hub'
+        sh 'docker push sdelacueva/jenkins-docker-hub'
       }
     }
   }
