@@ -30,6 +30,5 @@ pipeline {
   }
 }
 
-#This command will instruct Docker to build an Alpine-based Docker image. We have a very simple Dockerfile with only a single instruction/command. Next, create a file named `Jenkinsfile` without any extension. Open the file and the following Jenkins Pipeline stages:
 
 
